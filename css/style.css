@@ -51,8 +51,13 @@ body {
   }
   
   .nav-menu a:hover {
+    background-color: #181818;
+    padding: 20px;
+    color: #fff;
     text-decoration: underline;
   }
+
+  
 /* Main Content */
 .main-heading {
     text-align: center;
