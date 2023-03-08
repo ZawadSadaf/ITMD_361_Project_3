@@ -4,12 +4,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Resume</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 	<header>
 		<nav>
-			<ul>
+			<ul class="nav-menu">
 				<li><a href="index.html">Homepage</a></li>
 				<li><a href="resume.html">Resume</a></li>
 				<li><a href="interests.html">Interests</a></li>
@@ -17,66 +18,71 @@
 		</nav>
 	</header>
 	<main>
-		<h1>Resume</h1>
-		<h2>Contact</h2>
-		<p>Phone: xxx-xxx-xxxx</p>
-		<p>Email: ssadaf@hawk.iit.edu</p>
-		<h2>Education</h2>
-		<h3>Illinois Institute of Technology</h3>
-		<p>Graduating Dec 2023</p>
-		<p>Bachelor of Science in Computer Science</p>
-		<h3>Relevant Coursework:</h3>
-		<p>Human Computer Interaction, Fundamentals of Web Development</p>
-
-		<h2>Experience</h2>
-		<h3>AbbVie</h3>
-		<p>June 2021 - Present</p>
-		<p>Power Platform Developer Intern</p>
-		<ul>
-			<li>Made Interface changes to an internal web application using Microsoft Powerplatform, Sharepoint and
-				Power Automate </li>
-			<li>Currently working with PowerBi to create a data visualization dashboard to check user adoption rate of
-				an internal web app</li>
+		<h1 class="main-heading">Resume</h1>
+		<section>
+			<h2 class="section-heading">Contact</h2>
+			<p class="contact-info">Phone: xxx-xxx-xxxx</p>
+			<p class="contact-info">Email: ssadaf@hawk.iit.edu</p>
+		</section>
+		<section>
+			<h2 class="section-heading">Education</h2>
+			<h3 class="sub-heading">Illinois Institute of Technology</h3>
+			<p class="education-info">Graduating Dec 2023</p>
+			<p class="education-info">Bachelor of Science in Computer Science</p>
+			<h3 class="sub-heading">Relevant Coursework:</h3>
+			<p class="education-info">Human Computer Interaction, Fundamentals of Web Development</p>
+		</section>
+		<section>
+		<h2 class="section-heading">Experience</h2>
+		<h3 class="sub-heading">AbbVie</h3>
+		<p class="job-info">June 2021 - Present</p>
+		<p class="job-info">Power Platform Developer Intern</p>
+		<ul class="job-description">
+			<li>Made Interface changes to an internal web application using Microsoft Powerplatform, Sharepoint and Power Automate </li>
+			<li>Currently working with PowerBi to create a data visualization dashboard to check user adoption rate of an internal web app</li>
 		</ul>
-		<h3>Comcast</h3>
-		<p>June 2021 - Jul 2021</p>
-		<ul>
-			<li>Worked cross-platform with developers, project manager and Team Lead on a centralized Web App
-				potentially adopted by the entire Comcast Central Division</li>
+		<h3 class="sub-heading">Comcast</h3>
+		<p class="job-info">June 2021 - Jul 2021</p>
+		<ul class="job-description">
+			<li>Worked cross-platform with developers, project manager and Team Lead on a centralized Web App potentially adopted by the entire Comcast Central Division</li>
 			<li>Facilitated Usability Test on current WebApp users to discover key errors in their usage</li>
 			<li>Made front-end changes to interface using Angular 8</li>
 			<li>Developed prototypes for a secondary tool in PowerApps with specific design constraints</li>
 		</ul>
-
-		<h2>Projects</h2>
-		<h3>IBM - Telescope Control Software for MacOS</h3>
-		<p>Jan 2021 – Apr 2021</p>
-		<ul>
+	</section>
+	<section>
+		<h2 class="section-heading">Projects</h2>
+		<h3 class="sub-heading">IBM - Telescope Control Software for MacOS</h3>
+		<p class="project-info">Jan 2021 – Apr 2021</p>
+		<ul class="project-description">
 			<li>Worked on the design and interface development of IBM’s Telescope Application for macOS</li>
 			<li>Designed Prototypes on AdobeXD and Developed the interface with SwiftUI</li>
 		</ul>
+	</section>
+	<section>
+		<h2 class="section-heading">Skills</h2>
+		<h3 class="sub-heading">Languages and Libraries</h3>
+		<p class="skill-info"> Java, Python, SwiftUI, OCaml</p>
+		<h3 class="sub-heading">Tools</h3>
+		<p class="skill-info"> Git, Figma, AdobeXD, Miro, AirTable, Maze (User Testing)</p>
+		<h3 class="sub-heading">Languages</h3>
+		<p class="skill-info"> English, Bengali</p>
+	</section>
 
-
-		<h2>Skills</h2>
-		<h3>Languages and Libraries</h3>
-		<p> Java, Python, SwiftUI, OCaml</p>
-		<h3>Tools</h3>
-		<p> Git, Figma, AdobeXD, Miro, AirTable, Maze (User Testing)</p>
-		<h3>Languages</h3>
-		<p> English, Bengali</p>
-
-		<h2>Certifications</h2>
-
-		<h2>Extracurricular</h2>
-		<h3>Society of Hispanic Professional Engineers</h3>
-		<p>Event Co-ordinator</p>
-		<ul>
-			<li>Booked Rooms for Club related events</li>
-			<li>Managed the Google Calender and the overall Events Calender</li>
-			<li>Created the RSVP forms for events</li>
-		</ul>
-
+	<section>
+	<h2 class="section-heading">Extracurricular</h2>
+	<h3 class="sub-heading">Society of Hispanic Professional Engineers</h3>
+	<p class="extracurricular-info">Event Co-ordinator</p>
+	<ul class="extracurricular-description">
+		<li>Booked Rooms for Club related events</li>
+		<li>Managed the Google Calender and the overall Events Calender</li>
+		<li>Created the RSVP forms for events</li>
+	</ul>
+	</section>
 	</main>
+	<footer>
+		<p>&copy; 2023 Zawad Sadaf</p>
+	</footer>
 </body>
 
 </html>
