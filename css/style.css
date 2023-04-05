@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("../Images/paper-texture.jpg");
+    background-image: url("../images/paper-texture.jpg");
     background-size: cover;
     background-repeat: repeat;
   }
