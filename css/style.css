@@ -68,6 +68,58 @@ body {
   background-repeat: repeat;
 }
 
+/* Floats and/or Positions */
+.column-left {
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.column-right {
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+.relative-box {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  background-color: coral;
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.absolute-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: coral;
+  padding: 20px;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+
 /* Header */
 header {
   background-color: #333;
